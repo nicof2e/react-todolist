@@ -1,0 +1,92 @@
+:root {
+  --main_color: #FFD370;
+}
+
+html{
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+  line-height: 2.5;
+  overflow-x: hidden;
+  background-color: var(--main_color);
+  color:#333333
+}
+
+.container{
+  width: 100%;
+  height: 100%;
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+.section-wrap{
+  height: 100vh;
+}
+
+.side{
+  width: 386px;
+}
+
+#login .img{
+  width: 312px;
+}
+
+.formTitle{
+  width: 288px;
+  height: 35px;
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 14px;
+}
+
+.logo{
+  width: 386px;
+}
+
+.formLabel{
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+.formInput{
+  width: 304px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 400;
+  margin: 4px 0;
+  padding: 12px 16px;
+}
+
+.formInput:focus-visible{
+      outline-color: #e9e9e966;
+}
+
+.formBtn{
+  align-self: center;
+  background: #333;
+  border: none;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 700;
+  height: 48px;
+  margin: 20px 0;
+  text-align: center;
+  width: 128px;
+}
+
+#register_form .formBtn{
+  width: 160px;
+}
+
+.formLink{
+  color: #333;
+  display: block;
+  font-weight: 700;
+  text-align: center;
+  text-decoration: none;
+}

@@ -1,0 +1,59 @@
+.d-inline-block{
+    display: inline-block;
+}
+
+.d-none{
+    display: none;
+}
+
+.d-flex{
+    display: flex;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+.justify-content-between {
+    justify-content: space-between;
+}
+
+.flex-direction-column {
+    flex-direction: column;
+}
+
+.p-relative{
+    position: relative;
+}
+
+.p-absolute{
+    position: absolute;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pb-20{
+    padding-bottom: 20px;
+}
+
+.mb-0{
+    margin-bottom: 0;
+}
+
+.text-align-center{
+    text-align: center;
+}
+
+.z-index--1{
+    z-index: -1;
+}
+
+.form-group {
+    margin-bottom: 5px;
+}
